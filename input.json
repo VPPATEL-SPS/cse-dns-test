@@ -29,6 +29,15 @@
                         "zone_id": "VPTEST",
                         "name": "re.VPTEST.net."
                     }
+                },
+                {
+                    "name": "example.com.",
+                    "type": "TXT",
+                    "alias": {
+                        "zone_id": "VPTEST",
+                        "name": "re.VPTEST.net.",
+                        "evaluate_target_health": false
+                    }
                 }
             ],
             "records": [
