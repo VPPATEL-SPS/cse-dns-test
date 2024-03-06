@@ -47,6 +47,15 @@
                         "name": "re.VPTEST.net.",
                         "evaluate_target_health": false
                     }
+                },
+                {
+                    "name": "try3.com.",
+                    "type": "A",
+                    "alias": {
+                        "zone_id": "VPasasTEST",
+                        "name": "re.VsasasPTEST.net.",
+                        "evaluate_target_health": false
+                    }
                 }
             ],
             "records": [
