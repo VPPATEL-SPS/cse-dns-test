@@ -52,7 +52,7 @@
                     "name": "try3.com.",
                     "type": "A",
                     "alias": {
-                        "zone_id": "VPasasTEST",
+                        "zone_id": "VPupdate",
                         "name": "re.VsasasPTEST.net.",
                         "evaluate_target_health": false
                     }
