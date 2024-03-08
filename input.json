@@ -137,6 +137,14 @@
                     "type": "A",
                     "ttl": "300",
                     "value": "[192.168.1.20]"
+                },
+                {
+                    "name": "jaikant.shikre",
+                    "type": "records",
+                    "ttl": "300.0",
+                    "value": [
+                        "192.168.3.2"
+                    ]
                 }
             ]
         }
