@@ -47,15 +47,6 @@
                         "name": "re.VPTEST.net.",
                         "evaluate_target_health": false
                     }
-                },
-                {
-                    "name": "jaykant123.exp",
-                    "type": "A",
-                    "alias": {
-                        "zone_id": "1234567890",
-                        "name": "nonamewithname",
-                        "evaluate_target_health": false
-                    }
                 }
             ],
             "records": [
