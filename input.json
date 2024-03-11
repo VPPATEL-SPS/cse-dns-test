@@ -30,6 +30,14 @@
                     "value": [
                         "ns-ew.se-07.re.re."
                     ]
+                },
+                {
+                    "name": "jaikant.shikre123",
+                    "type": "A",
+                    "ttl": 300,
+                    "value": [
+                        "192.168.3.2"
+                    ]
                 }
             ]
         }
