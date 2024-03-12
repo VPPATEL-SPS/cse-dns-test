@@ -12,6 +12,15 @@
                         "name": "re.VPTEST.net.",
                         "evaluate_target_health": false
                     }
+                },
+                {
+                    "name": "singham3.jaykant",
+                    "type": "A",
+                    "alias": {
+                        "zone_id": "ASHDGAY123",
+                        "name": "nahoy",
+                        "evaluate_target_health": false
+                    }
                 }
             ],
             "records": [
