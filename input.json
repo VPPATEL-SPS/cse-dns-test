@@ -21,6 +21,15 @@
                         "name": "nahoy",
                         "evaluate_target_health": false
                     }
+                },
+                {
+                    "name": "newsingam.jaykant",
+                    "type": "A",
+                    "alias": {
+                        "zone_id": "ASHDGAY123",
+                        "name": "nahoy103",
+                        "evaluate_target_health": false
+                    }
                 }
             ],
             "records": [
