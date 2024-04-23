@@ -26,3 +26,12 @@ resource "aws_route53_record" "bgfds_fgds" {
       "fgdc"
     ]
 }
+resource "aws_route53_record" "test_A" {
+    zone_id = "your_zone_id"
+    name    = "test.example2.com"
+    type    = "A"
+    ttl     = "300"
+    records = [
+      "192.168.3.2", "192.433.23.12"
+    ]
+}
