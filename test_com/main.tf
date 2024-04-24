@@ -36,3 +36,12 @@ resource "aws_route53_record" "example101_A" {
       "192.20.3.2"
     ]
 }
+resource "aws_route53_record" "example112_A" {
+    zone_id = "your_zone_id"
+    name    = "example112.new.com"
+    type    = "A"
+    ttl     = "400"
+    records = [
+      "192.20.3.2"
+    ]
+}
