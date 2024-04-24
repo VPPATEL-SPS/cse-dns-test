@@ -12,8 +12,8 @@ resource "aws_route53_record" "example101_A" {
     name    = "example101.new.com"
     type    = "A"
     alias {
-        name = "ewrewr"
-        zone_id = "ewrewr"
+        name = "123ASDASDASDASD"
+        zone_id = "123ASDASDASDASD"
         evaluate_target_health = false
     }
 }
