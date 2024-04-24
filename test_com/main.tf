@@ -1,5 +1,9 @@
+locals {
+  zone_id = "your_zone_id"
+}
+
 resource "aws_route53_record" "example_A" {
-    zone_id = "your_zone_id"
+    zone_id = local.zone_id
     name    = "example.new.com"
     type    = "A"
     ttl     = "400"
@@ -8,7 +12,7 @@ resource "aws_route53_record" "example_A" {
     ]
 }
 resource "aws_route53_record" "example103_A" {
-    zone_id = "your_zone_id"
+    zone_id = local.zone_id
     name    = "example103.new.com"
     type    = "A"
     alias {
@@ -18,7 +22,7 @@ resource "aws_route53_record" "example103_A" {
     }
 }
 resource "aws_route53_record" "example112_A" {
-    zone_id = "your_zone_id"
+    zone_id = local.zone_id
     name    = "example112.new.com"
     type    = "A"
     ttl     = "400"
@@ -27,7 +31,7 @@ resource "aws_route53_record" "example112_A" {
     ]
 }
 resource "aws_route53_record" "example1312_A" {
-    zone_id = "your_zone_id"
+    zone_id = local.zone_id
     name    = "example1312.new.com"
     type    = "A"
     ttl     = "400"
