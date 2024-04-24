@@ -1,4 +1,3 @@
-
 resource "aws_route53_record" "example_A" {
     zone_id = "your_zone_id"
     name    = "example.new.com"
@@ -7,4 +6,14 @@ resource "aws_route53_record" "example_A" {
     records = [
       "192.20.3.2"
     ]
+}
+resource "aws_route53_record" "example101_A" {
+    zone_id = "your_zone_id"
+    name    = "example101.new.com"
+    type    = "A"
+    alias {
+        name = "ewrewr"
+        zone_id = "ewrewr"
+        evaluate_target_health = false
+    }
 }
