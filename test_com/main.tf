@@ -30,8 +30,8 @@ resource "aws_route53_record" "test_A" {
     zone_id = "your_zone_id"
     name    = "test.example.com"
     type    = "A"
-    ttl     = "300"
+    ttl     = "400"
     records = [
-      "192.168.3.2"
+      "192.20.3.2"
     ]
 }
