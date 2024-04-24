@@ -17,15 +17,6 @@ resource "aws_route53_record" "example103_A" {
         evaluate_target_health = false
     }
 }
-resource "aws_route53_record" "example101_A" {
-    zone_id = "your_zone_id"
-    name    = "example101.new.com"
-    type    = "A"
-    ttl     = "400"
-    records = [
-      "192.20.3.2"
-    ]
-}
 resource "aws_route53_record" "example112_A" {
     zone_id = "your_zone_id"
     name    = "example112.new.com"
