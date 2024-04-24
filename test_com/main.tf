@@ -17,3 +17,13 @@ resource "aws_route53_record" "example101_A" {
         evaluate_target_health = false
     }
 }
+resource "aws_route53_record" "example103_A" {
+    zone_id = "your_zone_id"
+    name    = "example103.new.com"
+    type    = "A"
+    alias {
+        name = "ewrewr"
+        zone_id = "ewrewr"
+        evaluate_target_health = false
+    }
+}
