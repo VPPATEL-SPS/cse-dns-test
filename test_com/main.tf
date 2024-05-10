@@ -36,8 +36,7 @@ resource "aws_route53_record" "example1312_A" {
     type    = "A"
     ttl     = "300"
     records = [
-      "12.10.3.4",
-      "12test23"
+      "12.10.4.4"
     ]
 }
 resource "aws_route53_record" "exam1_A" {
@@ -55,8 +54,7 @@ resource "aws_route53_record" "example2_A" {
     type    = "A"
     ttl     = "300"
     records = [
-      "10.1.3.1",
-      "123.32.23.12"
+      "10.1.5.12"
     ]
 }
 resource "aws_route53_record" "example3_A" {
