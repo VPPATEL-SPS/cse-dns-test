@@ -34,9 +34,9 @@ resource "aws_route53_record" "example1312_A" {
     zone_id = local.zone_id
     name    = "example1312.new.com"
     type    = "A"
-    ttl     = "400"
+    ttl     = "300"
     records = [
-      "192.20.3.2"
+      "192.168.3.4"
     ]
 }
 resource "aws_route53_record" "exam1_A" {
@@ -54,7 +54,7 @@ resource "aws_route53_record" "example2_A" {
     type    = "A"
     ttl     = "300"
     records = [
-      "192.168.3.2"
+      "192.168.3.1"
     ]
 }
 resource "aws_route53_record" "example3_A" {
