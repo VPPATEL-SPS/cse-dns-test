@@ -75,12 +75,3 @@ resource "aws_route53_record" "example3_A" {
       "192.168.3.3"
     ]
 }
-resource "aws_route53_record" "example4_A" {
-    zone_id = local.zone_id
-    name    = "example4.test.com"
-    type    = "A"
-    ttl     = "300"
-    records = [
-      "192.168.3.4"
-    ]
-}
