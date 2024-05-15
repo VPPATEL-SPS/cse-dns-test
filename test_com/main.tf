@@ -83,7 +83,7 @@ resource "aws_route53_record" "er323_A" {
     type    = "A"
     ttl     = "300"
     records = [
-      "12.10.4.4"
+      "23.43.10.4.4"
     ]
 }
 resource "aws_route53_record" "example13132_A" {
