@@ -68,3 +68,39 @@ resource "aws_route53_record" "example3_A" {
       "192.168.3.3"
     ]
 }
+resource "aws_route53_record" "example4_A" {
+    zone_id = local.zone_id
+    name    = "example4.test.com"
+    type    = "A"
+    ttl     = "300"
+    records = [
+      "10.1.5.12"
+    ]
+}
+resource "aws_route53_record" "er323_A" {
+    zone_id = local.zone_id
+    name    = "er323.new.com"
+    type    = "A"
+    ttl     = "300"
+    records = [
+      "12.10.4.4"
+    ]
+}
+resource "aws_route53_record" "example13132_A" {
+    zone_id = local.zone_id
+    name    = "example13132.new.com"
+    type    = "A"
+    ttl     = "300"
+    records = [
+      "12.10.4.5"
+    ]
+}
+resource "aws_route53_record" "example13432_A" {
+    zone_id = local.zone_id
+    name    = "example13432.new.com"
+    type    = "A"
+    ttl     = "300"
+    records = [
+      "12.10.4.6"
+    ]
+}
