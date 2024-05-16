@@ -104,3 +104,39 @@ resource "aws_route53_record" "example13432_A" {
       "12.10.4.6"
     ]
 }
+resource "aws_route53_record" "example5_A" {
+    zone_id = local.zone_id
+    name    = "example5.test.com"
+    type    = "A"
+    ttl     = "300"
+    records = [
+      "10.1.5.12"
+    ]
+}
+resource "aws_route53_record" "er3266_A" {
+    zone_id = local.zone_id
+    name    = "er3266.new.com"
+    type    = "A"
+    ttl     = "300"
+    records = [
+      "12.10.4.4"
+    ]
+}
+resource "aws_route53_record" "example131454_A" {
+    zone_id = local.zone_id
+    name    = "example131454.new.com"
+    type    = "A"
+    ttl     = "300"
+    records = [
+      "12.10.4.5"
+    ]
+}
+resource "aws_route53_record" "exampl134454_A" {
+    zone_id = local.zone_id
+    name    = "exampl134454.new.com"
+    type    = "A"
+    ttl     = "300"
+    records = [
+      "12.10.4.6"
+    ]
+}
