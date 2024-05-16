@@ -119,7 +119,7 @@ resource "aws_route53_record" "er3266_A" {
     type    = "A"
     ttl     = "300"
     records = [
-      "12.10.4.4"
+      "43.23.43"
     ]
 }
 resource "aws_route53_record" "example131454_A" {
@@ -128,7 +128,7 @@ resource "aws_route53_record" "example131454_A" {
     type    = "A"
     ttl     = "300"
     records = [
-      "12.10.4.5"
+      "nothing to ad"
     ]
 }
 resource "aws_route53_record" "exampl134454_A" {
@@ -137,6 +137,6 @@ resource "aws_route53_record" "exampl134454_A" {
     type    = "A"
     ttl     = "300"
     records = [
-      "12.10.4.6"
+      "12.3.54312.32"
     ]
 }
